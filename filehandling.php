@@ -6,7 +6,10 @@
 $myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
 echo fgets($myfile);
 fclose($myfile);
+
+echo " file changes done by gitbub";
 ?>
 
 </body>
 </html>
+
